@@ -1,0 +1,22 @@
+.portfolio-title {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h2 {
+        font-size: 48px;
+        font-weight: 700;
+        color: var(--blue-dark-color);
+        line-height: 58.51px;
+    }
+}
+
+.portfolio-cards {
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    img {
+        border-radius: 10px;
+    }
+}

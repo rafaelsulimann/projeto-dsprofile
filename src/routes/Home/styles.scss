@@ -1,0 +1,15 @@
+#dev-infos {
+    background-color: var(--green-light-color);
+    height: 406px;
+    .dev-infos-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }   
+}
+
+main {
+    margin-bottom: 30px;
+}
