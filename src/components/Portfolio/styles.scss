@@ -1,22 +1,32 @@
 .portfolio-title {
     margin-top: 60px;
-    margin-bottom: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-bottom: 30px;
+    text-align: center;
     h2 {
-        font-size: 48px;
+        font-size: 32px;
         font-weight: 700;
         color: var(--blue-dark-color);
-        line-height: 58.51px;
+        text-transform: uppercase;
+    }
+    @media(min-width: 768px) {
+        margin-bottom: 46px;
+        h2 {
+            font-size: 48px;
+        }
     }
 }
 
 .portfolio-cards {
+    margin-bottom: 40px;
     display: grid;
-    grid-gap: 40px;
+    grid-gap: 40px 20px;
     grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-    img {
-        border-radius: 10px;
-    }
 }
+
+//.portfolio-cards {
+//    padding: 0px 20px;
+//    display: flex;
+//    justify-content: center;
+//    align-items: center;
+//    flex-wrap: wrap;
+//}

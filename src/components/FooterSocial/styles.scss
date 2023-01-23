@@ -1,0 +1,24 @@
+.footer-social-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 13px;
+    p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 17.07px;
+    }
+}
+
+.footer-social-medias {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .footer-social-media-image {
+        img {
+            width: 32px;
+            height: 32px;
+        }
+    }
+}

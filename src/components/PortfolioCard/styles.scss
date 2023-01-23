@@ -1,6 +1,10 @@
-.portfolio-card-image {
+.portfolio-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     img {
-        width: 280px;
-        height: 200px;
+        border-radius: 10px;
+        width: calc(100% - 40px);
+        max-width: 420px;
     }
 }

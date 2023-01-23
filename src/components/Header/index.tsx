@@ -2,19 +2,21 @@ export default function Header() {
   return (
     <>
       <div className="header-title">
-        <h1>DEV FULL STACK</h1>
+        <a href="#">
+          <h1>Dev Full Stack</h1>
+        </a>
       </div>
       <div className="header-nav">
         <nav>
           <ul>
             <li>
-              <a href="#">PORTFOLIO</a>
+              <a href="#">Portfolio</a>
             </li>
             <li>
-              <a href="#">ABOUT</a>
+              <a href="#">About</a>
             </li>
-            <li>
-              <a href="#">CONTACT</a>
+            <li className="header-nav-last-item">
+              <a href="#">Contact</a>
             </li>
           </ul>
         </nav>
